@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Mr. Bonkers",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://weloveanimals.me/wp-content/uploads/2017/10/gettyimages-590486672-e1508512743796.jpg"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": 3,
       "name": "Skittles",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/Common-dog-behaviors-explained.jpg?itok=FSzwbBoi"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": 6,
       "name": "Snooper Pooper",
-      "isGoodDog": false,
+      "isGoodDog": true,
       "image": "https://static01.nyt.com/images/2018/02/11/realestate/11dogs-topbreeds-Chihuahua/11dogs-topbreeds-Chihuahua-master495.jpg"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "Mittens",
-      "isGoodDog": true,
+      "isGoodDog": false,
       "image": "http://evelynswinebar.com/wp-content/uploads/2018/06/dogpic.jpg"
     },
     {
