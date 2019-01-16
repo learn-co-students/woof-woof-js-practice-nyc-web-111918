@@ -62,6 +62,25 @@ document.addEventListener("DOMContentLoaded", function(e){
           body: JSON.stringify ({
             "isGoodDog": toggleBoolean
           })
+
+        })
+        .then (res =>{
+          fetch('http://localhost:3000/pups')
+          .then(function(res){
+            return res.json()
+          })
+          .then(function(pups){
+            if (goodDogButton.innerHTML === "Filter good dogs: ON") {
+              dogBar.innerHTML = ""
+              pups.forEach(function(pup){
+                if (pup.isGoodDog === true) {
+                  dogBar.innerHTML += `
+                  <span class="dog-name" data-id=${pup.id} >${pup.name}</span>
+                  `
+                }
+              })
+            }
+          })
         })
       }
     })
@@ -99,8 +118,6 @@ document.addEventListener("DOMContentLoaded", function(e){
             })
           })
       }
-
-
     })
 
 
